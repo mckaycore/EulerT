@@ -10,7 +10,7 @@ namespace EulerT
     {
         //This function is designed to find
         //the sum of all the multiples of 3 or 5 below 1000
-        //and return the answer.
+        //and return the answer. 
         public static int GetSumOfMultiples()
         {
             int res = 0; //setup result var
