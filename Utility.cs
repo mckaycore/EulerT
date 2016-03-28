@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerT
 {
-    class Utility
+    public class Utility
     {
         //This function is designed to find
         //the sum of all the multiples of 3 or 5 below 1000
