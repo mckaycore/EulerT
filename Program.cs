@@ -15,8 +15,8 @@ namespace EulerT
             {
                 int call = await Task.FromResult<int>(Utility.GetSumOfMultiples());
                 Console.WriteLine("Find the sum of all the multiples of 3 or 5 below 1000 - ANSWER: " + call.ToString());
-                //int call2 = await Task.FromResult<int>(2);
-                //Console.WriteLine("Number of letters in 1 to 1000 Answer: " + call2.ToString());
+                int call2 = await Task.FromResult<int>(Utility.GetSumLettersForNumbers());
+                Console.WriteLine("Number of letters in 1 to 1000 - ANSWER: " + call2.ToString());
 
             })).Unwrap();
 
